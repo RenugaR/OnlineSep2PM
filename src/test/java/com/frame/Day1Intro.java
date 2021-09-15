@@ -10,5 +10,15 @@ public class Day1Intro {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.close();
+		System.setProperty("webdriver.edge.driver",
+				"C:\\Users\\ADMIN\\eclipse-workspace\\Online9AMSepFramework\\drivers\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.close();
+		System.setProperty("webdriver.edge.driver",
+				"C:\\Users\\ADMIN\\eclipse-workspace\\Online9AMSepFramework\\drivers\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.facebook.com/");
+		driver.close();
 	}
 }
